@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  background: #f2efe8;
+  color: #1a0f1f;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: #d4f25a;
+  color: #1a0f1f;
+}
+
+.display {
+  font-family: var(--font-display);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+
+.script {
+  font-family: var(--font-script);
+  color: #6e4bff;
+}
+
+.rule {
+  border-color: rgba(26, 15, 31, 0.2);
+}

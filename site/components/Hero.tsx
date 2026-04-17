@@ -10,13 +10,13 @@ export function Hero() {
     <section className="mx-auto max-w-7xl px-6 pt-6 pb-24">
       <div className="grid grid-cols-1 gap-10 lg:grid-cols-12">
         <div className="lg:col-span-7">
-          <h1 className="display text-[18vw] leading-[0.88] sm:text-[14vw] lg:text-[11rem]">
-            <div>
-              <MaskReveal>AI, SIMPLIFIED.</MaskReveal>
-            </div>
-            <div>
-              <MaskReveal delay={0.15}>NO BULLSHIT.</MaskReveal>
-            </div>
+          <h1 className="display text-[18vw] leading-[0.88] sm:text-[14vw] lg:text-[10rem]">
+            <span className="block">
+              <MaskReveal eager>AI, SIMPLIFIED.</MaskReveal>
+            </span>
+            <span className="block">
+              <MaskReveal eager delay={0.15}>NO BULLSHIT.</MaskReveal>
+            </span>
           </h1>
 
           <motion.a

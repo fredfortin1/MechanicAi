@@ -24,3 +24,6 @@ npm-debug.log*
 # build
 build/
 dist/
+
+# generated preview screenshots
+site/preview/
